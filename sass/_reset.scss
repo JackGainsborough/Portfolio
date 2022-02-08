@@ -33,8 +33,7 @@ body {
 
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 3.6rem;
     margin: 15px 0;
     width: fit-content;
     position: relative;
@@ -48,7 +47,6 @@ h1::after {
 }
 
 h2 {
-    font-family: 'Lobster', cursive;
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin: 15px 0;
@@ -64,23 +62,14 @@ h2::after {
 }
 
 h3 {
-    font-family: 'Lobster', cursive;
     font-size: 2rem;
-    line-height: 2.6rem;
     margin: 15px 0;
     width: fit-content;
     position: relative;
 }
-h3::after {
-    content: "";
-    position: absolute;
-    bottom: -3px; right: 0; left: 0;
-    height: 2px;
-    background: $primary;
-}
 
 h4, h5, h6 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 2.2rem;
     margin: 10px 0;
     width: fit-content;
@@ -94,10 +83,27 @@ p {
 }
 
 /* * * * * * * * * * * * */
-
 button {
     padding: 10px 15px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    background: $white;
+    color: $dark;
+    cursor: pointer;
+
+    &:hover, &:active, &:focus {
+        color: $white;
+        background: $dark;
+        box-shadow: 0 0 7px $primary-dark;
+    }
+}
+
+.primary-button {
+    padding: 10px 15px;
+    margin: 10px 0 0 0;
     border: none;
     outline: none;
     letter-spacing: 1px;

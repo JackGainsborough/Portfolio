@@ -1,0 +1,125 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    font-size: 10px;
+}
+
+a, a:active, a:focus, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.link {
+    color: $secondary;
+}
+a.link:hover, a.link:active, a.link:focus {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 15px 0;
+    border: 1px solid $white;
+}
+
+body {
+    background: $dark;
+    background: linear-gradient(90deg, #04000f 0%, #11052c 40%, #1d052c 60%, #130013 100%);
+    color: $white;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 15px 0;
+    width: fit-content;
+    position: relative;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; right: 0; left: 0;
+    height: 2px;
+    background: $primary;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 15px 0;
+    width: fit-content;
+    position: relative;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; right: 0; left: 0;
+    height: 2px;
+    background: $primary;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin: 15px 0;
+    width: fit-content;
+    position: relative;
+}
+h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px; right: 0; left: 0;
+    height: 2px;
+    background: $primary;
+}
+
+h4, h5, h6 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin: 10px 0;
+    width: fit-content;
+    position: relative;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+/* * * * * * * * * * * * */
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    color: $white;
+    background: $primary-dark;
+    background: linear-gradient(135deg, $primary-dark 0%, $primary 45%,  $primary 55%, $primary-dark 100%);
+    cursor: pointer;
+
+    &:hover, &:active, &:focus {
+        background: $primary;
+        background: linear-gradient(135deg, $primary-dark 0%, $primary 7%,  $primary 85%, $primary-dark 100%);
+        box-shadow: 0 0 7px $primary;
+    }
+}
+
+/* * * * * * * * * * * * */
+
+footer {
+    margin-top: 20px;
+    padding: 5px 15px;
+    width: 100%;
+    height: 200px;
+    background: $dark;
+}

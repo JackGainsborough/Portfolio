@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "./sass/variables", "./sass/reset";
+@import "./sass/responsive";
+
+/* * * * * * * * * * * * * */
+/* * * * * * * * * * * * * */
+
+.bold {
+    font-weight: 700;
+}
+
+.primary {
+    color: $primary;
+}
+
+.primary-light {
+    color: $primary-light;
+}
+
+.m-btn {
+    margin: 0 20px;
+}

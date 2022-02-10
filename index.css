@@ -132,8 +132,12 @@ footer {
   body {
     padding: 0px 10%;
   }
+  #nav {
+    top: 15px;
+    right: 10%;
+  }
   .content {
-    border-left: 5px solid #e64e5b;
+    border-left: 5px solid #fafafa;
   }
 }
 
@@ -172,7 +176,7 @@ footer {
 #nav {
   position: fixed;
   top: 5px;
-  right: 10%;
+  right: 5px;
 }
 
 header {

@@ -9,12 +9,12 @@
     font-weight: 700;
 }
 
-.primary {
-    color: $primary;
+.fantasy {
+    font-family: "Lobster", cursive;
 }
 
-.primary-light {
-    color: $primary-light;
+.primary {
+    color: $primary;
 }
 
 .secondary {
@@ -27,4 +27,25 @@
 
 .content {
     margin-bottom: 30px;
+    & article {
+        margin: 25px 0;
+        padding: 5px 15px;
+        background: rgba(0,0,0,0.4);
+    }
+}
+
+// * * * * * * * * * * *
+
+#nav {
+    position: fixed;
+    top: 5px; right: 10%;
+}
+
+header {
+    width: 100%;
+    min-height: 250px;
+    background: $dark;
+    background-image: url(./Medias/placeholder.png);
+    background-size: contain;
+    margin: 25px 0;
 }

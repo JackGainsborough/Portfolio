@@ -10,105 +10,121 @@
 </head>
 
 <body>
-    <h1>Jack Gainsborough</h1>
-    <p>Bienvenue sur mon portfolio où vous trouverez mes créations par catégories. Si vous souhaitez parcourir mes
-        créations dans une expérience mêlant mystère, exploration et esprit critique, utilisez <a
-            href="https://jackgainsborough.github.io/Laboratory/index.html" target="blank" class="link">le
-            Laboratory</a>.
-    </p>
+    <h1 class="fantasy underline">Jack Gainsborough</h1>
 
-    <section class="content">
-        <button><a href="./Pages/blog.html">- Blog -</a></button>
-        <button><a href="#">- Graphisme -</a></button>
-        <button><a href="#">- Webdesign -</a></button>
-        <button><a href="#">- Développement -</a></button>
-    </section>
+    <div id="nav">
+        <select name="pages" id="pages" onchange="window.open(this.value,'_self');">
+            <option value="">Accueil</option>
+            <option value="Pages/blog.html">Blog</option>
+            <option value="">DeFi</option>
+            <option value="">Webdesign</option>
+        </select>
+    </div>
+
+    <header></header>
 
     <!-- Formations -->
-    <h2>Formations</h2>
+    <h2 class="underline">Formations</h2>
+    <p>Si vous souhaitez parcourir mes créations dans une expérience mêlant mystères et exploration, utilisez <a
+            href="https://jackgainsborough.github.io/Laboratory/index.html" target="blank" class="link">le
+            Laboratory</a>.</p>
     <section class="content">
-        <h3>Responsive design (HTML, CSS)</h3>
-        <h4 class="secondary">FreeCodeCamp, 2020.</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
-            ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque quis
-            ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci efficitur
-            ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
-            dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam et
-            risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis. Quisque
-            tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
-            Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
-        <button class="primary-button"><a href="#">- Certification -</a></button>
-        <button class=" primary-button m-btn">
-            <a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="blank">- Formation -</a>
-        </button>
-        <br><br>
-        <h3>Algorithmes et structure de données en Javascript</h3>
-        <h4 class="secondary">FreeCodeCamp, 2020.</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
-            ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque quis
-            ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci efficitur
-            ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
-            dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam et
-            risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis. Quisque
-            tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
-            Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
-        <button class=" primary-button"><a href="#">- Certification -</a></button>
-        <button class=" primary-button m-btn">
-            <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures//" target="blank">-
-                Formation -</a>
-        </button>
-        <br><br>
-        <h3>CSS & SASS avancé</h3>
-        <h4 class="secondary">Udemy, Jonas Schneiderman, 2021.</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
-            ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque quis
-            ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci efficitur
-            ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
-            dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam et
-            risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis. Quisque
-            tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
-            Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
-        <button class="primary-button"><a href="#">- Certification -</a></button>
-        <button class=" primary-button m-btn"><a href="#">- Formation -</a></button>
-        <br><br>
-        <h3>Git & Github avancé, Udemy</h3>
-        <h4 class="secondary">Udemy, Louis-Nicolas Leuillet, 2021.</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
-            ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque quis
-            ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci efficitur
-            ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
-            dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam et
-            risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis. Quisque
-            tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
-            Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
-        <button class="primary-button">
-            <a href="./medias/UC--GitGithub-Ultime.jpg" target="blank">- Certification -</a>
-        </button>
-        <button class=" primary-button m-btn">
-            <a href="https://www.udemy.com/share/103Ptm3@bV0WExYA9bz8Lh34jQA0epNTUCFnNJOnw9zeJK03mePqS6gWunsQUm_Iqd-gFdpkYA==/"
-                target="blank">- Formation -</a>
-        </button>
-        <br><br>
-        <h3>Javascript avancé, Udemy</h3>
-        <h4 class="secondary">Udemy, Louis-Nicolas Leuillet, 2021.</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
-            ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque quis
-            ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci efficitur
-            ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
-            dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam et
-            risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis. Quisque
-            tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
-            Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
-        <button class="primary-button">
-            <a href="./medias/UC--Javascript-Ultime.jpg" target="blank">- Certification -</a>
-        </button>
-        <button class=" primary-button m-btn">
-            <a href="https://www.udemy.com/share/102s323@JLeL3AIrxzPATs7gUGhnsUADcY4tX6uj9HVvDOqPysxZQAzxLAa7XvsQuCpGl8PTiw==/"
-                target="blank">- Formation -</a>
-        </button>
+        <article>
+            <h3>Responsive design (HTML, CSS)</h3>
+            <h4 class="secondary">FreeCodeCamp, 2020.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
+                ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque
+                quis
+                ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci
+                efficitur
+                ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae felis eget
+                dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla massa. Nam
+                et
+                risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis facilisis.
+                Quisque
+                tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet egestas felis.
+                Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
+            <button class="primary-button"><a href="#">- Certification -</a></button>
+            <button class=" primary-button m-btn">
+                <a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="blank">- Formation -</a>
+            </button>
+        </article>
+
+        <article>
+            <h3>Algorithmes et structure de données en Javascript</h3>
+            <h4 class="secondary">FreeCodeCamp, 2020.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
+                ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque
+                quis ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci
+                efficitur ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae
+                felis eget dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla
+                massa. Nam et risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis
+                facilisis. Quisque tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet
+                egestas felis. Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
+            <button class=" primary-button"><a href="#">- Certification -</a></button>
+            <button class=" primary-button m-btn">
+                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures//"
+                    target="blank">- Formation -</a>
+            </button>
+        </article>
+
+        <article>
+            <h3>CSS & SASS avancé</h3>
+            <h4 class="secondary">Udemy, Jonas Schneiderman, 2021.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
+                ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque
+                quis ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci
+                efficitur ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae
+                felis eget dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla
+                massa. Nam et risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis
+                facilisis. Quisque tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet
+                egestas felis. Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
+            <button class="primary-button"><a href="#">- Certification -</a></button>
+            <button class=" primary-button m-btn"><a href="#">- Formation -</a></button>
+        </article>
+
+        <article>
+            <h3>Git & Github avancé, Udemy</h3>
+            <h4 class="secondary">Udemy, Louis-Nicolas Leuillet, 2021.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
+                ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque
+                quis ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci
+                efficitur ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae
+                felis eget dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla
+                massa. Nam et risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis
+                facilisis. Quisque tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet
+                egestas felis. Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
+            <button class="primary-button">
+                <a href="./medias/UC--GitGithub-Ultime.jpg" target="blank">- Certification -</a>
+            </button>
+            <button class=" primary-button m-btn">
+                <a href="https://www.udemy.com/share/103Ptm3@bV0WExYA9bz8Lh34jQA0epNTUCFnNJOnw9zeJK03mePqS6gWunsQUm_Iqd-gFdpkYA==/"
+                    target="blank">- Formation -</a>
+            </button>
+        </article>
+
+        <article>
+            <h3>Javascript avancé, Udemy</h3>
+            <h4 class="secondary">Udemy, Louis-Nicolas Leuillet, 2021.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros in augue convallis,
+                ullamcorper convallis mi euismod. Nunc augue odio, imperdiet at molestie ut, tempor nec lorem. Quisque
+                quis ultricies ante. Fusce maximus mattis scelerisque. Sed sed nisl nisi. Nullam posuere dolor in orci
+                efficitur ultricies. Praesent tincidunt lorem sed ligula scelerisque commodo. Maecenas imperdiet vitae
+                felis eget dignissim. Aliquam et cursus arcu. Cras lorem ex, consectetur a justo a, ultricies fringilla
+                massa. Nam et risus eget dolor ultricies commodo et nec eros. Integer finibus justo tincidunt sagittis
+                facilisis. Quisque tristique dolor sit ametdiam faucibus, vitae aliquam nisi fringilla. Proin sit amet
+                egestas felis. Suspendisse at placerat lorem. Duis quis nulla tortor.</p>
+            <button class="primary-button">
+                <a href="./medias/UC--Javascript-Ultime.jpg" target="blank">- Certification -</a>
+            </button>
+            <button class=" primary-button m-btn">
+                <a href="https://www.udemy.com/share/102s323@JLeL3AIrxzPATs7gUGhnsUADcY4tX6uj9HVvDOqPysxZQAzxLAa7XvsQuCpGl8PTiw==/"
+                    target="blank">- Formation -</a>
+            </button>
+        </article>
     </section>
     <br><br><br>
-    <h2>Mes projets</h2>
+    <h2 class="underline">Mes projets</h2>
     <section class="content">
         <h3>Obtenir mon 1er job "tech"</h3>
         <h4 class="secondary">Webmaster, webdesign, front-end, community manager...</h4>

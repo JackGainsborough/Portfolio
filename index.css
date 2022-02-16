@@ -128,20 +128,6 @@ footer {
   background: #0c0511;
 }
 
-@media screen and (min-width: 980px) {
-  body {
-    padding: 0px 10%;
-  }
-  #nav {
-    top: 15px;
-    right: 10%;
-  }
-  .content {
-    border-left: 5px solid #fafafa;
-  }
-}
-
-/* * * * * * * * * * * * * */
 /* * * * * * * * * * * * * */
 .bold {
   font-weight: 700;
@@ -173,12 +159,6 @@ footer {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#nav {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-}
-
 header {
   width: 100%;
   min-height: 250px;
@@ -186,5 +166,20 @@ header {
   background-image: url(./Medias/placeholder.png);
   background-size: contain;
   margin: 25px 0;
+}
+
+/* * * * * * * * * * * * * */
+@media screen and (min-width: 980px) {
+  body {
+    padding: 0px 10%;
+  }
+  #nav {
+    position: absolute;
+    top: 15px;
+    right: 10%;
+  }
+  .content {
+    border-left: 5px solid #fafafa;
+  }
 }
 /*# sourceMappingURL=index.css.map */

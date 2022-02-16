@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import "./sass/variables", "./sass/reset";
-@import "./sass/responsive";
 
-/* * * * * * * * * * * * * */
 /* * * * * * * * * * * * * */
 
 .bold {
@@ -36,11 +34,6 @@
 
 // * * * * * * * * * * *
 
-#nav {
-    position: fixed;
-    top:5px; right: 5px;
-}
-
 header {
     width: 100%;
     min-height: 250px;
@@ -49,3 +42,7 @@ header {
     background-size: contain;
     margin: 25px 0;
 }
+
+
+/* * * * * * * * * * * * * */
+@import "./sass/responsive";
